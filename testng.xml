@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener
+			class-name="DemoProject.E2EProjectSelenium.Listeners" />
+	</listeners>
+	<test name="Validate Navigation bar">
+		<classes>
+			<class name="DemoProject.E2EProjectSelenium.validateNavBar" />
+		</classes>
+	</test>
+	<test name="Validate Title of Page">
+		<classes>
+			<class name="DemoProject.E2EProjectSelenium.validateTitle" />
+		</classes>
+	</test>
+	<test name="App Testing">
+		<classes>
+			<class name="DemoProject.E2EProjectSelenium.AppTest" />
+		</classes>
+	</test>
+	<test name="Validate Login in Home page">
+		<classes>
+			<class name="DemoProject.E2EProjectSelenium.HomePage" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
